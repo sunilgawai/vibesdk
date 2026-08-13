@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vp dev",
-    "build": "vp build",
+    "dev": "node init && vp dev",
+    "build": "node init && vp build",
     "check": "vp check",
     "preview": "vp run build && vp preview",
     "deploy": "vp run build && wrangler deploy",

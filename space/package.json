@@ -2,7 +2,7 @@
   "name": "@space-do/space",
   "version": "0.1.0",
   "type": "module",
-  "description": "Space Durable Object (SpaceDO) — git-backed workspace, preview and deploy for Cloudflare Workers",
+  "description": "Space Durable Object (SpaceDO) \u2014 git-backed workspace, preview and deploy for Cloudflare Workers",
   "exports": {
     ".": {
       "types": "./types/index.d.ts",
@@ -18,7 +18,7 @@
     "types"
   ],
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node init && node build.mjs",
     "prepare": "node build.mjs",
     "typecheck": "tsc --noEmit"
   },

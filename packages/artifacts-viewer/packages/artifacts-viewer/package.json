@@ -34,8 +34,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "vp pack",
-    "dev": "vp pack --watch",
+    "build": "node init && vp pack",
+    "dev": "node init && vp pack --watch",
     "check": "vp check",
     "prepublishOnly": "vp run build"
   },
